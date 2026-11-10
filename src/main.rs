@@ -205,6 +205,8 @@ impl eframe::App for App {
                     ui.spacing_mut().item_spacing.x = 4.0;
                     ui.small("Created by wilrubyjane with");
                     ui.colored_label(egui::Color32::from_rgb(235, 80, 100), "❤");
+                    ui.small("|");
+                    ui.hyperlink_to(egui::RichText::new("GitHub").small(), "https://github.com/xfwil/nnk-presence");
                 });
             });
         });
