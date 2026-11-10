@@ -15,16 +15,38 @@ hover portrait: Engineer · Lv 218 · CP 10,216,846   hover class icon: Deck 6
 It never touches the game process, never injects, and never sends anything to the game servers.
 It only reads packets that already arrive on your network adapter, the same way Wireshark does.
 
-## Requirements
+## Installation
 
-- Windows 10/11
-- [Npcap](https://npcap.com) installed. It comes with Wireshark, or you can install it on its own.
-  If you choose "Restrict Npcap driver's access to Administrators only" during setup, run the app as Administrator.
-- The Discord desktop app running on the same PC.
+You need Windows 10 or 11, plus these three things:
+
+### 1. Npcap (packet capture driver)
+
+1. Go to <https://npcap.com/#download> and download the latest **Npcap installer** (`npcap-x.xx.exe`).
+2. Run it. The default options are fine. Leave
+   **"Restrict Npcap driver's access to Administrators only"** unticked, otherwise the app has to be run as Administrator.
+3. Finish. No restart is needed.
+
+Already have [Wireshark](https://www.wireshark.org/download.html)? It installs Npcap for you, so you can skip this step.
+
+### 2. Discord desktop app
+
+Install it from <https://discord.com/download> and keep it running while you play.
+The browser version of Discord cannot show Rich Presence.
+In Discord, **User Settings → Activity Privacy → "Share your detected activities with others"** must be on.
+
+### 3. nnk-presence
+
+1. Open the [latest release](../../releases/latest) and download `nnk-presence.exe`.
+2. Put it in any folder, for example `C:\Tools\nnk-presence\`. The log file is written next to it.
+3. Run it. The exe is not code-signed, so Windows SmartScreen may show "Windows protected your PC".
+   Click **More info → Run anyway**.
+
+No installer, no extra runtime. Delete the exe to remove it. If you turned on "Start with Windows",
+untick it first, or remove `NNK Presence` from Task Manager → Startup apps.
 
 ## Usage
 
-1. Download `nnk-presence.exe` from [Releases](../../releases) and run it.
+1. Run `nnk-presence.exe`.
 2. Start the game and enter the world. Your character is picked up every time you enter the world,
    so if the app was started mid-session, go to character select and re-enter once.
 3. The window shows what has been detected.
@@ -47,11 +69,25 @@ Errors are logged to `nnk-presence.log` next to the executable.
 | Channel | open-world maps only: on map entry, and when you switch channel          |
 | Deck    | when you switch deck (unknown until the first switch)                     |
 
+## Troubleshooting
+
+| Window shows | Fix |
+|---|---|
+| `Npcap not available` | Npcap is not installed. See step 1 above. |
+| `no capturable network adapter` | Npcap was installed with admin-only access: run the app as Administrator, or reinstall Npcap with that option unticked. |
+| `Waiting for the game…` while in game | Go to character select and re-enter the world once. On a VPN, also check that game traffic still goes through a normal network adapter. |
+| `Discord not running` | Start the Discord desktop app. The app reconnects by itself. |
+| Detected fine, but nothing on your profile | Turn on Discord → User Settings → Activity Privacy → "Share your detected activities with others". |
+
 ## Building
+
+Install Rust from <https://rustup.rs> (the default MSVC toolchain), then:
 
 ```
 cargo build --release
 ```
+
+The exe ends up in `target\release\nnk-presence.exe`.
 
 No Npcap SDK is needed: `wpcap.dll` is loaded at runtime from `C:\Windows\System32\Npcap`.
 
