@@ -12,11 +12,29 @@ pub fn class_name(id: u32) -> &'static str {
     CLASSES.get(id as usize).copied().unwrap_or("Unknown")
 }
 
-pub fn world_name(id: u32) -> Option<&'static str> {
+/// (name, World.Type, World.PkType) from the game's World table.
+pub fn world(id: u32) -> Option<(&'static str, u32, u32)> {
     include_str!("worlds.tsv").lines().find_map(|l| {
-        let (k, v) = l.split_once('\t')?;
-        (k.parse::<u32>().ok()? == id).then_some(v)
+        let mut f = l.split('\t');
+        (f.next()?.parse::<u32>().ok()? == id).then_some(())?;
+        Some((f.next()?, f.next()?.parse().ok()?, f.next()?.parse().ok()?))
     })
+}
+
+/// Type 0 is the open world: PkType 4 = safe town, otherwise a hunting field.
+/// Everything else (dungeons, raids, arenas, events) is shown by its own name.
+pub fn activity_label(id: u32) -> Option<String> {
+    let (name, kind, pk) = world(id)?;
+    Some(match (kind, pk) {
+        (0, 4) => format!("In {name}"),
+        (0, _) => format!("Farming at {name}"),
+        _ => name.to_string(),
+    })
+}
+
+/// Open-world maps have channels; instanced content doesn't show one.
+pub fn is_open_world(id: u32) -> bool {
+    world(id).is_some_and(|w| w.1 == 0)
 }
 
 /// Splits one TCP direction's byte stream into decrypted frames.
@@ -123,9 +141,10 @@ pub struct Char {
     pub world: u32,
     pub channel: u16,
     pub deck: Option<u8>,
-    /// Set on a new game connection: the next c1/c9 is accepted as "me".
-    pub fresh: bool,
 }
+
+/// Header of the own-character summary sent on every enter-world (also on re-select).
+const C1_HEAD: [u8; 9] = [0, 0, 0, 0x10, 0, 0, 0, 0x01, 0];
 
 fn u16_at(p: &[u8], i: usize) -> Option<u16> {
     Some(u16::from_le_bytes(p.get(i..i + 2)?.try_into().ok()?))
@@ -138,41 +157,39 @@ fn u64_at(p: &[u8], i: usize) -> Option<u64> {
 }
 
 impl Char {
-    fn mine(&self, id: u64) -> bool {
-        self.fresh || self.id == 0 || self.id == id
+    fn set_world(&mut self, id: u32) -> Option<()> {
+        world(id)?; // op bytes can collide with other messages: only accept real world ids
+        self.world = id;
+        Some(())
     }
 
     pub fn on_s2c(&mut self, op: u8, p: &[u8]) -> Option<()> {
         match op {
-            // char summary: id, class, level, CP as the last u32
+            // own char summary (locks the char id): id, class, level, CP as the last u32
             0xc1 => {
-                let id = u64_at(p, 9)?;
-                if p.len() < 31 || !self.mine(id) {
+                let class = u32_at(p, 19)?;
+                if p.len() < 31 || !p.starts_with(&C1_HEAD) || !(1..=5).contains(&class) {
                     return None;
                 }
-                self.id = id;
-                self.class = u32_at(p, 19)?;
+                self.id = u64_at(p, 9)?;
+                self.class = class;
                 self.level = u32_at(p, 23)?;
                 self.cp = u32_at(p, p.len() - 4)?;
             }
             // full char info: id, u16-len name, class
             0xc9 => {
-                let id = u64_at(p, 3)?;
-                if !self.mine(id) {
+                let n = u16_at(p, 23)? as usize;
+                if self.id == 0 || u64_at(p, 3)? != self.id || n == 0 {
                     return None;
                 }
-                let n = u16_at(p, 23)? as usize;
                 self.name = String::from_utf8_lossy(p.get(25..25 + n)?).into_owned();
-                self.class = u32_at(p, 25 + n)?;
-                self.id = id;
-                self.fresh = false;
             }
             0x6d => {
-                self.world = u32_at(p, 3)?;
+                self.set_world(u32_at(p, 3)?)?;
                 self.channel = u16_at(p, 7)?;
             }
-            0x6b if p.len() == 8 => self.world = u32_at(p, 3)?,
-            0x69 => self.world = u32_at(p, 11)?,
+            0x6b if p.len() == 8 => self.set_world(u32_at(p, 3)?)?,
+            0x69 => self.set_world(u32_at(p, 11)?)?,
             // stat update; CP (stat 0x13d) is the last entry before the 5f79 trailer
             0xe4 => {
                 let n = p.len();
@@ -214,7 +231,7 @@ mod tests {
     // Real capture 2026-11-10 (name anonymised): Lv218 Engineer, Sagartha Ch.1, CP 10,216,846
     #[test]
     fn login_stream() {
-        let mut c = Char { fresh: true, ..Default::default() };
+        let mut c = Char::default();
         feed(include_bytes!("../tests/s2c_login.bin"), true, |op, p| {
             c.on_s2c(op, p);
         });
@@ -222,7 +239,7 @@ mod tests {
         assert_eq!(class_name(c.class), "Engineer");
         assert_eq!(c.level, 218);
         assert_eq!(c.cp, 10_216_846);
-        assert_eq!(world_name(c.world), Some("Sagartha"));
+        assert_eq!(world(c.world).map(|w| w.0), Some("Sagartha"));
         assert_eq!(c.channel, 1);
     }
 
@@ -241,5 +258,18 @@ mod tests {
         });
         assert_eq!(c.channel, 3);
         assert_eq!(decks, vec![0, 5]);
+    }
+}
+
+#[cfg(test)]
+mod label_tests {
+    use super::activity_label as a;
+    #[test]
+    fn labels() {
+        assert_eq!(a(1017).as_deref(), Some("Farming at Sagartha"));
+        assert_eq!(a(2001).as_deref(), Some("In Evermore"));
+        assert_eq!(a(3009).as_deref(), Some("Lava Valley"));
+        assert_eq!(a(300602).as_deref(), Some("Temple Team Arena"));
+        assert_eq!(a(10202).as_deref(), Some("Dream Witch (Normal)"));
     }
 }

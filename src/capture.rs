@@ -204,9 +204,6 @@ fn on_segment(flows: &mut HashMap<Key, Flow>, seg: Seg, shared: &Arc<Mutex<Share
         flow.next = Some(seg.seq.wrapping_add(1));
         flow.pending.clear();
         flow.framer.reset(true);
-        if !from_server {
-            shared.lock().unwrap().ch.fresh = true; // new game/lobby login
-        }
         return;
     }
     if seg.data.is_empty() {

@@ -1,610 +1,567 @@
-1	Title
-2	Lobby
-101	테스트맵00 (test)
-102	@101
-103	@101
-104	테스트맵00_플랫포머 (test)
-105	테스트맵00_킹덤마을디펜스 (test)
-106	테스트맵00_플랫포머2 (test)
-107	테스트맵00_저속낙하 (test)
-111	테스트맵01 (test)
-121	테스트맵02 (test)
-131	테스트맵03 (test)
-141	테스트맵04 (test)
-151	테스트맵05 (test)
-152	테스트맵05 AI (test)
-161	테스트맵06 (test)
-171	테스트맵07 (test)
-181	테스트맵08 (test)
-191	테스트맵09 (test)
-201	테스트맵10 (test)
-211	테스트맵11 (test)
-212	테스트맵12 (test)
-23	테스트90 (test)
-24	Intelligence Tree (Dimensional Border)
-25	테스트용 스페셜 던전 (test)
-301	Familiar Adventure World
-302	Familiar Adventure Battle World
-303	Familiar Adventure Total Assault
-350	Familiar Arena World
-360	Familiar Grand Prix Battle World
-370	Familiar Expedition Battle World
-400	정예던전 테스트맵 (test)
-500	EngineeRoom
-901	던전 파트 테스트맵_01 (test)
-903	던전 파트 테스트맵_03 (test)
-904	레이드2A 테스트맵 (test)
-1000	(test) 보름달 산
-1001	Southern Heartlands
-1002	Eastern Heartlands
-1003	Golden Grove
-1004	Serene Forest
-1005	Allegra Plateau
-1006	Cloudcoil Canyon
-1007	Winter Wonderland
-1008	Glittering Grotto
-1009	Burning Desert
-1010	Witch's Woods
-1011	Woebegone Wilds
-1012	Rainbow Valley
-1013	Ruins of Atrasia
-1014	Boddly Archives
-1015	Treynia
-1016	Hydropolis
-1017	Sagartha
-1018	Stardust Mountains
-1019	Kingdom of Familiars
-1020	Soul Bond
-1021	마녀의 숲(TVCF)
-1022	그레이나스 동부(TVCF)
-1023	네이트람의 둥지(TVCF)
-1024	그레이나스 남부(TVCF)
-1025	모엘 숲(TVCF)
-1026	타오르 사막(TVCF)
-1027	@1007
-1101	Garden of Starting Winter Wind
-1102	Starting Underground City
-2001	Evermore
-2002	Evermore Castle
-2003	에스타바니아 왕성(TVCF용)
-2040	Evermore at Night
-3001	Familiar Arena
-3002	Forest
-3003	Fire Temple
-3004	장비던전 BTS 테스트용
-3006	Monster Nest
-3007	Combat Simulator World
-3008	@3002
-3012	@3002
-3013	@3002
-3101	Infinite Labyrinth
-3102	@3101
-3103	@3101
-3104	@3101
-3105	@3101
-3106	Labyrinth of Dreams
-3107	@3106
-3108	@3106
-3109	@3106
-3110	@3106
-3201	Labyrinth of Trials
-3005	Sky Island
-3009	Lava Valley
-3301	Heartlands Duel Yard
-3302	Burning Desert Duel Yard
-3303	Witch's Woods Duel Yard
-3010	Pirate Ship
-3011	Familiar Nest
-3020	Solo Training
-3021	@3020
-3401	Sia's Nightmare
-3402	@3401
-3403	@3401
-3404	@3401
-3405	@3401
-3500	Twisted Border
-3502	@3500
-3503	@3500
-3504	@3500
-3505	@3500
-3506	@3500
-3507	@3500
-3508	@3500
-3509	@3500
-3510	@3500
-3511	@3500
-3512	@3500
-3513	@3500
-3514	@3500
-3515	@3500
-3516	@3500
-3517	@3500
-3518	@3500
-3519	@3500
-3520	@3500
-3521	@3500
-3522	@3500
-3523	@3500
-3524	@3500
-3525	@3500
-3526	@3500
-3527	@3500
-3528	@3500
-3529	@3500
-3530	@3500
-3531	@3500
-3532	@3500
-3533	@3500
-3534	@3500
-3535	@3500
-3536	@3500
-3537	@3500
-3538	@3500
-3539	@3500
-3540	@3500
-3541	@3500
-3542	@3500
-3543	@3500
-3544	@3500
-3545	@3500
-3546	@3500
-3547	@3500
-3548	@3500
-3549	@3500
-3550	@3500
-3551	@3500
-3552	@3500
-3553	@3500
-3554	@3500
-3555	@3500
-3556	@3500
-3557	@3500
-3558	@3500
-3559	@3500
-3560	@3500
-3600	Adventurer's Trial
-3601	@3600
-3602	@3600
-3603	@3600
-3604	@3600
-3605	@3600
-3606	@3600
-3607	@3600
-3608	@3600
-3609	@3600
-3610	@3600
-3611	@3600
-3612	@3600
-3613	@3600
-3614	@3600
-3615	@3600
-3616	@3600
-3617	@3600
-3618	@3600
-3619	@3600
-3620	@3600
-3621	@3600
-3622	@3600
-3623	@3600
-3624	@3600
-3625	@3600
-3626	@3600
-3627	@3600
-3628	@3600
-3629	@3600
-3630	@3600
-3631	@3600
-3632	@3600
-3633	@3600
-3634	@3600
-3635	@3600
-3636	@3600
-3637	@3600
-3638	@3600
-3639	@3600
-3640	@3600
-3641	@3600
-3642	@3600
-3643	@3600
-3644	@3600
-3645	@3600
-4001	Dominion
-4002	Defense
-4003	Invasion
-4004	Relic Wars
-4006	Certification Battlefield
-4007	@4006
-4008	Spacetime Battlefield
-4010	Fight for the Throne
-4100	Ancient Shrine
-4101	Fire Altar
-4102	Eternal Cave
-4110	Ancient Temple (Heroic)
-4111	Fire Altar (Heroic)
-4112	Eternal Cave (Heroic)
-4005	Banquet Hall
-4200	Forest of Niall
-4201	Herva Swamp Purification I
-4202	Luvere Wilds Purification I
-4203	Salig Forest Purification I
-4204	Lavore Waterfront Purification I
-4205	Otium Highlands Purification I
-4290	@4200
-4291	@4200
-4292	Event Kingdom Village
-4301	Herva Swamp Tracking I
-4302	Luvere Wilds Tracking I
-4303	Salig Forest Tracking I
-4304	Lavore Waterfront Tracking I
-4305	Otium Highlands Tracking I
-4401	Kingdom Defense Heroic
-5001	Natrum's Nest
-5002	Natrum's Nest (Hard)
-5003	Frozen Laboratory
-5004	Frozen Laboratory (Hard)
-5005	Noha Volcano
-5006	Noha Volcano (Hard)
-5007	Shrine of Darkness
-5008	Shrine of Light
-5901	시련의 미궁 (테스트)
-6001	Burning Land
-6002	@6001
-6003	@6001
-6004	@6001
-6005	@6001
-6011	Heart of the World Tree
-6012	@6011
-6013	@6011
-6014	@6011
-6015	@6011
-6021	Forgotten Undersea Cave
-6022	@6021
-6023	@6021
-6031	Cradle of Starlight
-6032	@6031
-7000	@1009
-7001	Sealed Ancient Genie's Island
-7002	Ancient Genie's Attack
-7004	A Nightmare in Evermore
-7005	Sanctum of Eternal Ice Fl. 4
-7006	@7004
-7007	Snowball Fight Wonderland
-7008	@3002
-7009	Witch's Kitchen
-7010	@7009
-7011	Nameless Island
-7012	@7011
-7013	@7011
-7014	@7011
-7015	Hide-n-Seek: Witch's Woods
-7016	Hide-n-Seek: Witch's Kitchen
-7017	@1017
-7018	Coin Finder: Evermore
-7019	My Melody's Dream
-7020	Kuromi's Dream
-7021	Dream Cloud Palace
-7022	(test) 쿠로미의 꿈
-7023	Speed Rally: Burning Desert
-7024	Speed Rally: Treynia
-7025	Speed Rally: Glittering Grotto
-7026	Water Dome
-7027	Hide-n-Seek: Witch's Candy Shop
-7028	Coin Finder: Glittering Grotto
-702901	Finding Hidden Higgledy: Southern Heartlands
-702903	Finding Hidden Higgledy: Golden Grove
-702904	Finding Hidden Higgledy: Serene Forest
-702906	Finding Hidden Higgledy: Cloudcoil Canyon
-702907	Finding Hidden Higgledy: Winter Wonderland
-702908	Finding Hidden Higgledy: Glittering Grotto
-702909	Finding Hidden Higgledy: Burning Desert
-702910	Finding Hidden Higgledy: Witch's Woods
-702911	Finding Hidden Higgledy: Woebegone Wilds
-702912	Finding Hidden Higgledy: Rainbow Valley
-702913	Finding Hidden Higgledy: Ruins of Atrasia
-702914	Finding Hidden Higgledy: Boddly Archives
-702916	Finding Hidden Higgledy: Hydropolis
-702917	Finding Hidden Higgledy: Sagartha
-7201	Sea Turtle Island of Destiny
-7202	@7201
-7203	Treasure Hunt Island
-7204	Verdant Pirate's Island
-7205	Goldbeard's Pirate Ship
-7206	@7205
-7207	@7205
-7220	Castaway Island
-7221	Blue Marlin Island
-7222	Green Serpent Island
-7223	Prince of Whales's Island
-7224	Island Higgledy's Island
-7225	Red Fox Pirates Occupied Island
-7226	Blue Marlin Pirates Occupied Island
-7227	Green Serpent Pirates' Occupied Island
-7228	Obran's Island
-7301	Vermuda Archipelago
-7302	@7301
-7303	@7301
-7304	@7301
-7305	@7301
-7306	@7301
-7307	@7301
-7308	@7301
-7311	@7301
-7312	@7301
-7313	@7301
-7314	@7301
-7321	@7301
-7322	@7301
-7331	@7301
-7332	@7301
-7333	@7301
-7351	@7301
-7352	@7301
-7353	@7301
-7354	@7301
-7355	@7301
-7356	Fishing Festival Island
-7357	@7228
-7358	@7301
-7359	@7301
-7401	@7301
-7402	@7301
-7403	@7301
-7404	@7301
-7405	@7301
-7406	@7301
-7407	@7301
-7408	@7301
-7409	@7301
-7410	@7301
-7411	@7301
-7412	@7301
-7413	@7301
-7414	@7301
-7415	@7301
-7416	@7301
-7417	@7301
-7418	@7301
-7419	@7301
-7420	@7301
-7421	@7301
-7422	@7301
-7423	@7301
-7424	@7301
-7501	@7004
-7502	@7004
-7503	@7004
-7504	@7004
-7505	@7004
-7506	@7004
-7507	@7004
-7508	@7004
-7509	@7004
-7510	@7004
-7511	@7004
-7512	@7004
-7513	@7004
-7514	@7004
-7515	@7004
-7516	@7004
-7517	@7004
-7518	@7004
-7519	@7004
-7520	@7004
-7521	@7004
-7522	@7004
-7523	@7004
-7524	@7004
-7525	@7004
-7526	@7004
-7527	@7004
-7528	@7004
-7529	@7004
-7530	@7004
-7531	@7004
-7532	@7004
-7533	@7004
-7534	@7004
-7535	@7004
-7536	@7004
-7600	EP04 Reputation Quest: Cockatrako's Secret Hot Spring
-7601	Merfolk's Island
-7602	@7601
-7603	@7301
-7604	@7601
-7605	Secret Hot Spring
-7606	@7009
-7801	@7301
-7802	@7301
-7803	@7301
-7804	@7301
-7805	@7301
-7806	@7301
-7807	@7301
-7811	@7301
-7812	@7301
-7813	@7301
-7814	@7301
-7815	@7301
-7816	@7301
-7817	@7301
-7821	@7301
-7822	@7301
-7823	@7301
-7824	@7301
-7825	@7301
-7826	@7301
-7827	@7301
-7831	@7301
-7832	@7301
-7833	@7301
-7834	@7301
-7835	@7301
-7836	@7301
-7837	@7301
-7841	@7301
-7842	@7301
-7843	@7301
-7844	@7301
-7845	@7301
-7846	@7301
-7847	@7301
-7999	@7301
-8000	Southern Heartland Well
-8001	@5001
-8003	@3003
-8004	The In-Between
-8005	Nameless Kingdom
-8006	Citadel Interior
-8007	@8004
-8008	@8005
-8009	Kingdom
-8010	@1012
-8011	@8004
-8012	Nameless Kingdom
-8014	Guardian's Ruins
-8015	Queen's Chambers
-8016	@2002
-8017	@2001
-8018	Burster Factory
-8019	Ancient Relic Archive Sub-basement
-8020	For Recording the Lost Kingdom Video
-8030	@8020
-8031	@3002
-8032	Alvis's Office
-8033	Mirae Corporation Lab
-8034	Star Altar: Past
-8035	@1013
-8036	Familiars Castle Interior
-8037	Secret Southern Heartland Well
-8038	@1019
-8039	@1007
-8040	Witch's Castle Entrance
-8041	@8004
-8042	Cradle of Light
-8043	@8005
-8044	Sky Island
-9000	@1001
-9001	@1002
-9002	@1003
-9003	@1004
-9004	@1005
-9005	@1006
-9101	Coastal Plaza Fl. 1
-9102	Collapsed Wreckage Fl. 2
-9103	Corridor of Honor Fl. 3
-9104	Hall of Worship Fl. 4
-9109	@9101
-9111	Maintenance Bay Fl. 1
-9112	Lower Hangar Fl. 2
-9113	Upper Hangar Fl. 3
-9114	Airship Interior Fl. 4
-9131	Fl. 1 Winter Wind's Forgotten Garden
-9132	Fl. 2 Ancient Frozen Corridor
-9141	Tainted Underground City Fl. 1
-9142	Road of the Forsaken Fl. 2
-9143	Castle of Seized Memory Fl. 3
-9144	Sealed Crypt of the Kings Fl. 4
-9151	Fl. 1 Lower Treynia Volcano
-9152	Fl. 2 Middle Treynia Volcano
-9153	Fl. 3 Upper Treynia Volcano
-9154	Fl. 4 Treynia Volcano Depths
-9161	Fl. 1 Sagartha Outskirts Primis
-9162	Fl. 2 Sagartha Outskirts Secundus
-9163	Fl. 3 Sagartha Outskirts Tertium
-9164	Fl. 4 Sagartha Outskirts Quartus
-9171	Fl. 1 Cradle of Fire Lowlands
-9172	Fl. 2 Cradle of Light Lower Floor
-9173	Fl. 3 Cradle of Fire Highlands
-9174	Fl. 4 Cradle of Light Upper Floor
-9181	Nightmare Coastal Plaza Fl. 1
-9182	Fl. 2 Nightmare Collapsed Wreckage
-9121	Fl. 1 Winter Wind's Garden
-9122	Fl. 2 Frozen Corridor
-9123	Fl. 3 Hall of Frozen Dew
-9124	@7005
-9517	@1017
-11001	Scattered Spacetime Garden Fl. 1
-11002	Hall of Forgotten Guardians Fl. 2
-11003	Ruins of Faded Memory Fl. 3
-11004	Ruins of Halted Time Fl. 4
-11005	5th Floor Land of Revived Bonds
-11101	1st Floor Deep Blue Coral Great Blood
-11102	2nd Floor Shining Angler Great Blood
-11103	3rd Floor Dark Reef Great Blood
-11104	Fl. 4 Abandoned Whelk Cavern
-9900	Interstellar Space
-9901	@9900
-9902	@9900
-10001	Dusk Genie (Novice)
-10002	Dusk Genie (Normal)
-10003	Dusk Genie (Hard)
-10004	Dusk Genie of the In-Between
-10005	@7001
-10101	Kraken's Island (Novice)
-10102	Kraken's Island (Normal)
-10103	Kraken's Island (Hard)
-10104	Goldbeard of the In-Between
-10105	Kraken's Island
-10202	Dream Witch (Normal)
-10203	Dream Witch (Hard)
-10204	Dream Witch of the In-Between
-10302	Cockatrako's Secret Hot Spring (Normal)
-10303	Cockatrako's Secret Hot Spring (Hard)
-10304	Cockatrako of the In-Between
-10401	Sirius (Solo Dungeon)
-10402	Sirius (Normal)
-10403	Sirius (Hard)
-10404	Void Beasts from the In-Between
-10405	Sirius (Chance Dungeon)
-10406	Void Beast Summon
-10501	Witch's Kitchen (Normal)
-10502	Witch's Kitchen (Hard)
-10503	Cooking Witch of the In-Between
-10901	DJ Kuromi's Party House (Normal)
-10902	DJ Kuromi's Party House (Hard)
-10903	DJ Kuromi's Party House (Challenge)
-10909	DJ Kuromi's Party House
-12001	@8018
-12011	Chaos Forge
-12021	Forward Base Depths
-12031	Mega Burster Crane
-12002	Burster Factory (Heroic)
-12012	Chaos Forge (Heroic)
-12022	Forward Base Depths (Heroic)
-12032	Mega Burster Crane (Heroic)
-12003	Burster Factory (Legendary)
-12101	@8019
-12111	Shrine of the Thunder Lord
-12102	Ancient Relic Archive Sub-basement (Heroic)
-12112	Shrine of the Thunder Lord (Heroic)
-12201	@8040
-12211	Witch's Castle Underground
-12202	Witch's Castle Entrance (Heroic)
-12212	Witch's Castle Underground (Heroic)
-20000	Chaos Rift
-20001	Party Chaos Rift
-20002	@2040
-30000	Battle Balance (Range)
-30001	Battle Balance (Fire)
-30002	Battle Balance (Water)
-30003	Battle Balance (Earth)
-30004	Battle Balance (Light)
-30005	Battle Balance (Darkness)
-30010	하늘섬 대난투 (test)
-3010999	Goldbeard's Pirate Ship
-3011998	Familiars' Cradle
-3011999	@3011998
-5001999	네이트람의 둥지 (test)
-7001001	@7007
-9999970	Familiar Ultimate Evolution Exclusive Level
-9999980	사가르타_발판떨림테스트 (test)
-9999997	검은 고리회 전초기지A (test)
-9999998	우다닥 동전 줍기 (test)
-9999999	술래잡기 (test)
-300301	Leader Battle Melee
-300601	Temple Team Arena
-300602	@300601
-300603	@300601
-300604	@300601
-300605	@300601
-91511	@9151
+1	Title	0	4
+2	Lobby	0	4
+24	Intelligence Tree (Dimensional Border)	12	4
+301	Familiar Adventure World	23	4
+302	Familiar Adventure Battle World	24	4
+303	Familiar Adventure Total Assault	73	4
+350	Familiar Arena World	25	4
+360	Familiar Grand Prix Battle World	53	4
+370	Familiar Expedition Battle World	70	4
+500	EngineeRoom	0	4
+1001	Southern Heartlands	0	4
+1002	Eastern Heartlands	0	4
+1003	Golden Grove	0	4
+1004	Serene Forest	0	4
+1005	Allegra Plateau	0	1
+1006	Cloudcoil Canyon	0	1
+1007	Winter Wonderland	0	1
+1008	Glittering Grotto	0	1
+1009	Burning Desert	0	1
+1010	Witch's Woods	0	1
+1011	Woebegone Wilds	0	1
+1012	Rainbow Valley	0	1
+1013	Ruins of Atrasia	0	1
+1014	Boddly Archives	0	1
+1015	Treynia	0	1
+1016	Hydropolis	0	1
+1017	Sagartha	0	1
+1018	Stardust Mountains	0	1
+1019	Kingdom of Familiars	0	1
+1020	Soul Bond	0	1
+1027	Winter Wonderland	0	1
+1101	Garden of Starting Winter Wind	69	4
+1102	Starting Underground City	69	4
+2001	Evermore	0	4
+2002	Evermore Castle	0	4
+2040	Evermore at Night	5	4
+3001	Familiar Arena	15	3
+3002	Forest	3	4
+3003	Fire Temple	13	4
+3006	Monster Nest	14	4
+3007	Combat Simulator World	26	3
+3008	Forest	3	4
+3012	Forest	3	4
+3013	Forest	3	4
+3101	Infinite Labyrinth	20	4
+3102	Infinite Labyrinth	20	4
+3103	Infinite Labyrinth	20	4
+3104	Infinite Labyrinth	20	4
+3105	Infinite Labyrinth	20	4
+3106	Labyrinth of Dreams	20	4
+3107	Labyrinth of Dreams	20	4
+3108	Labyrinth of Dreams	20	4
+3109	Labyrinth of Dreams	20	4
+3110	Labyrinth of Dreams	20	4
+3201	Labyrinth of Trials	21	4
+3005	Sky Island	16	3
+3009	Lava Valley	44	3
+3301	Heartlands Duel Yard	15	3
+3302	Burning Desert Duel Yard	15	3
+3303	Witch's Woods Duel Yard	15	3
+3010	Pirate Ship	13	4
+3011	Familiar Nest	13	4
+3020	Solo Training	39	4
+3021	Solo Training	47	4
+3401	Sia's Nightmare	74	4
+3402	Sia's Nightmare	74	4
+3403	Sia's Nightmare	74	4
+3404	Sia's Nightmare	74	4
+3405	Sia's Nightmare	74	4
+3500	Twisted Border	41	4
+3502	Twisted Border	41	4
+3503	Twisted Border	41	4
+3504	Twisted Border	41	4
+3505	Twisted Border	41	4
+3506	Twisted Border	41	4
+3507	Twisted Border	41	4
+3508	Twisted Border	41	4
+3509	Twisted Border	41	4
+3510	Twisted Border	41	4
+3511	Twisted Border	41	4
+3512	Twisted Border	41	4
+3513	Twisted Border	41	4
+3514	Twisted Border	41	4
+3515	Twisted Border	41	4
+3516	Twisted Border	41	4
+3517	Twisted Border	41	4
+3518	Twisted Border	41	4
+3519	Twisted Border	41	4
+3520	Twisted Border	41	4
+3521	Twisted Border	41	4
+3522	Twisted Border	41	4
+3523	Twisted Border	41	4
+3524	Twisted Border	41	4
+3525	Twisted Border	41	4
+3526	Twisted Border	41	4
+3527	Twisted Border	41	4
+3528	Twisted Border	41	4
+3529	Twisted Border	41	4
+3530	Twisted Border	41	4
+3531	Twisted Border	41	4
+3532	Twisted Border	41	4
+3533	Twisted Border	41	4
+3534	Twisted Border	41	4
+3535	Twisted Border	41	4
+3536	Twisted Border	41	4
+3537	Twisted Border	41	4
+3538	Twisted Border	41	4
+3539	Twisted Border	41	4
+3540	Twisted Border	41	4
+3541	Twisted Border	41	4
+3542	Twisted Border	41	4
+3543	Twisted Border	41	4
+3544	Twisted Border	41	4
+3545	Twisted Border	41	4
+3546	Twisted Border	41	4
+3547	Twisted Border	41	4
+3548	Twisted Border	41	4
+3549	Twisted Border	41	4
+3550	Twisted Border	41	4
+3551	Twisted Border	41	4
+3552	Twisted Border	41	4
+3553	Twisted Border	41	4
+3554	Twisted Border	41	4
+3555	Twisted Border	41	4
+3556	Twisted Border	41	4
+3557	Twisted Border	41	4
+3558	Twisted Border	41	4
+3559	Twisted Border	41	4
+3560	Twisted Border	41	4
+3600	Adventurer's Trial	68	4
+3601	Adventurer's Trial	68	4
+3602	Adventurer's Trial	68	4
+3603	Adventurer's Trial	68	4
+3604	Adventurer's Trial	68	4
+3605	Adventurer's Trial	68	4
+3606	Adventurer's Trial	68	4
+3607	Adventurer's Trial	68	4
+3608	Adventurer's Trial	68	4
+3609	Adventurer's Trial	68	4
+3610	Adventurer's Trial	68	4
+3611	Adventurer's Trial	68	4
+3612	Adventurer's Trial	68	4
+3613	Adventurer's Trial	68	4
+3614	Adventurer's Trial	68	4
+3615	Adventurer's Trial	68	4
+3616	Adventurer's Trial	68	4
+3617	Adventurer's Trial	68	4
+3618	Adventurer's Trial	68	4
+3619	Adventurer's Trial	68	4
+3620	Adventurer's Trial	68	4
+3621	Adventurer's Trial	68	4
+3622	Adventurer's Trial	68	4
+3623	Adventurer's Trial	68	4
+3624	Adventurer's Trial	68	4
+3625	Adventurer's Trial	68	4
+3626	Adventurer's Trial	68	4
+3627	Adventurer's Trial	68	4
+3628	Adventurer's Trial	68	4
+3629	Adventurer's Trial	68	4
+3630	Adventurer's Trial	68	4
+3631	Adventurer's Trial	68	4
+3632	Adventurer's Trial	68	4
+3633	Adventurer's Trial	68	4
+3634	Adventurer's Trial	68	4
+3635	Adventurer's Trial	68	4
+3636	Adventurer's Trial	68	4
+3637	Adventurer's Trial	68	4
+3638	Adventurer's Trial	68	4
+3639	Adventurer's Trial	68	4
+3640	Adventurer's Trial	68	4
+3641	Adventurer's Trial	68	4
+3642	Adventurer's Trial	68	4
+3643	Adventurer's Trial	68	4
+3644	Adventurer's Trial	68	4
+3645	Adventurer's Trial	68	4
+4001	Dominion	9	4
+4002	Defense	10	4
+4003	Invasion	11	3
+4004	Relic Wars	17	3
+4006	Certification Battlefield	48	3
+4007	Certification Battlefield	48	3
+4008	Spacetime Battlefield	64	3
+4010	Fight for the Throne	34	3
+4100	Ancient Shrine	29	4
+4101	Fire Altar	29	4
+4102	Eternal Cave	29	4
+4110	Ancient Temple (Heroic)	67	4
+4111	Fire Altar (Heroic)	67	4
+4112	Eternal Cave (Heroic)	67	4
+4005	Banquet Hall	36	4
+4200	Forest of Niall	61	4
+4201	Herva Swamp Purification I	62	4
+4202	Luvere Wilds Purification I	62	4
+4203	Salig Forest Purification I	62	4
+4204	Lavore Waterfront Purification I	62	4
+4205	Otium Highlands Purification I	62	4
+4290	Forest of Niall	5	4
+4291	Forest of Niall	60	4
+4292	Event Kingdom Village	65	4
+4301	Herva Swamp Tracking I	63	4
+4302	Luvere Wilds Tracking I	63	4
+4303	Salig Forest Tracking I	63	4
+4304	Lavore Waterfront Tracking I	63	4
+4305	Otium Highlands Tracking I	63	4
+4401	Kingdom Defense Heroic	66	4
+5001	Natrum's Nest	12	4
+5002	Natrum's Nest (Hard)	12	4
+5003	Frozen Laboratory	12	4
+5004	Frozen Laboratory (Hard)	12	4
+5005	Noha Volcano	12	4
+5006	Noha Volcano (Hard)	12	4
+5007	Shrine of Darkness	12	4
+5008	Shrine of Light	12	4
+6001	Burning Land	19	4
+6002	Burning Land	19	4
+6003	Burning Land	19	4
+6004	Burning Land	19	4
+6005	Burning Land	19	4
+6011	Heart of the World Tree	19	4
+6012	Heart of the World Tree	19	4
+6013	Heart of the World Tree	19	4
+6014	Heart of the World Tree	19	4
+6015	Heart of the World Tree	19	4
+6021	Forgotten Undersea Cave	19	4
+6022	Forgotten Undersea Cave	19	4
+6023	Forgotten Undersea Cave	19	4
+6031	Cradle of Starlight	19	4
+6032	Cradle of Starlight	19	4
+7000	Burning Desert	5	1
+7001	Sealed Ancient Genie's Island	5	1
+7002	Ancient Genie's Attack	30	4
+7004	A Nightmare in Evermore	5	4
+7005	Sanctum of Eternal Ice Fl. 4	5	4
+7006	A Nightmare in Evermore	5	4
+7007	Snowball Fight Wonderland	42	3
+7008	Forest	5	4
+7009	Witch's Kitchen	5	4
+7010	Witch's Kitchen	37	4
+7011	Nameless Island	5	4
+7012	Nameless Island	5	4
+7013	Nameless Island	5	4
+7014	Nameless Island	5	4
+7015	Hide-n-Seek: Witch's Woods	54	3
+7016	Hide-n-Seek: Witch's Kitchen	54	3
+7017	Sagartha	57	4
+7018	Coin Finder: Evermore	59	4
+7019	My Melody's Dream	57	3
+7020	Kuromi's Dream	57	4
+7021	Dream Cloud Palace	57	3
+7023	Speed Rally: Burning Desert	57	3
+7024	Speed Rally: Treynia	57	3
+7025	Speed Rally: Glittering Grotto	57	3
+7026	Water Dome	42	3
+7027	Hide-n-Seek: Witch's Candy Shop	54	3
+7028	Coin Finder: Glittering Grotto	59	4
+702901	Finding Hidden Higgledy: Southern Heartlands	71	4
+702903	Finding Hidden Higgledy: Golden Grove	71	4
+702904	Finding Hidden Higgledy: Serene Forest	71	4
+702906	Finding Hidden Higgledy: Cloudcoil Canyon	71	4
+702907	Finding Hidden Higgledy: Winter Wonderland	71	4
+702908	Finding Hidden Higgledy: Glittering Grotto	71	4
+702909	Finding Hidden Higgledy: Burning Desert	71	4
+702910	Finding Hidden Higgledy: Witch's Woods	71	4
+702911	Finding Hidden Higgledy: Woebegone Wilds	71	4
+702912	Finding Hidden Higgledy: Rainbow Valley	71	4
+702913	Finding Hidden Higgledy: Ruins of Atrasia	71	4
+702914	Finding Hidden Higgledy: Boddly Archives	71	4
+702916	Finding Hidden Higgledy: Hydropolis	71	4
+702917	Finding Hidden Higgledy: Sagartha	71	4
+7201	Sea Turtle Island of Destiny	5	4
+7202	Sea Turtle Island of Destiny	5	4
+7203	Treasure Hunt Island	5	4
+7204	Verdant Pirate's Island	5	4
+7205	Goldbeard's Pirate Ship	5	4
+7206	Goldbeard's Pirate Ship	5	4
+7207	Goldbeard's Pirate Ship	5	4
+7220	Castaway Island	5	4
+7221	Blue Marlin Island	5	4
+7222	Green Serpent Island	5	4
+7223	Prince of Whales's Island	5	4
+7224	Island Higgledy's Island	5	4
+7225	Red Fox Pirates Occupied Island	5	4
+7226	Blue Marlin Pirates Occupied Island	5	4
+7227	Green Serpent Pirates' Occupied Island	5	4
+7228	Obran's Island	5	4
+7301	Vermuda Archipelago	35	4
+7302	Vermuda Archipelago	35	4
+7303	Vermuda Archipelago	35	4
+7304	Vermuda Archipelago	35	4
+7305	Vermuda Archipelago	35	4
+7306	Vermuda Archipelago	35	4
+7307	Vermuda Archipelago	35	4
+7308	Vermuda Archipelago	35	4
+7311	Vermuda Archipelago	35	4
+7312	Vermuda Archipelago	35	4
+7313	Vermuda Archipelago	35	4
+7314	Vermuda Archipelago	35	4
+7321	Vermuda Archipelago	35	4
+7322	Vermuda Archipelago	35	4
+7331	Vermuda Archipelago	35	4
+7332	Vermuda Archipelago	35	4
+7333	Vermuda Archipelago	35	4
+7351	Vermuda Archipelago	35	4
+7352	Vermuda Archipelago	35	4
+7353	Vermuda Archipelago	35	4
+7354	Vermuda Archipelago	35	4
+7355	Vermuda Archipelago	35	4
+7356	Fishing Festival Island	37	4
+7357	Obran's Island	35	4
+7358	Vermuda Archipelago	35	4
+7359	Vermuda Archipelago	35	4
+7401	Vermuda Archipelago	35	4
+7402	Vermuda Archipelago	35	4
+7403	Vermuda Archipelago	35	4
+7404	Vermuda Archipelago	35	4
+7405	Vermuda Archipelago	35	4
+7406	Vermuda Archipelago	35	4
+7407	Vermuda Archipelago	35	4
+7408	Vermuda Archipelago	35	4
+7409	Vermuda Archipelago	35	4
+7410	Vermuda Archipelago	35	4
+7411	Vermuda Archipelago	35	4
+7412	Vermuda Archipelago	35	4
+7413	Vermuda Archipelago	35	4
+7414	Vermuda Archipelago	35	4
+7415	Vermuda Archipelago	35	4
+7416	Vermuda Archipelago	35	4
+7417	Vermuda Archipelago	35	4
+7418	Vermuda Archipelago	35	4
+7419	Vermuda Archipelago	35	4
+7420	Vermuda Archipelago	35	4
+7421	Vermuda Archipelago	35	4
+7422	Vermuda Archipelago	35	4
+7423	Vermuda Archipelago	35	4
+7424	Vermuda Archipelago	35	4
+7501	A Nightmare in Evermore	40	4
+7502	A Nightmare in Evermore	40	4
+7503	A Nightmare in Evermore	40	4
+7504	A Nightmare in Evermore	40	4
+7505	A Nightmare in Evermore	40	4
+7506	A Nightmare in Evermore	40	4
+7507	A Nightmare in Evermore	40	4
+7508	A Nightmare in Evermore	40	4
+7509	A Nightmare in Evermore	40	4
+7510	A Nightmare in Evermore	40	4
+7511	A Nightmare in Evermore	40	4
+7512	A Nightmare in Evermore	40	4
+7513	A Nightmare in Evermore	40	4
+7514	A Nightmare in Evermore	40	4
+7515	A Nightmare in Evermore	40	4
+7516	A Nightmare in Evermore	40	4
+7517	A Nightmare in Evermore	40	4
+7518	A Nightmare in Evermore	40	4
+7519	A Nightmare in Evermore	40	4
+7520	A Nightmare in Evermore	40	4
+7521	A Nightmare in Evermore	40	4
+7522	A Nightmare in Evermore	40	4
+7523	A Nightmare in Evermore	40	4
+7524	A Nightmare in Evermore	40	4
+7525	A Nightmare in Evermore	40	4
+7526	A Nightmare in Evermore	40	4
+7527	A Nightmare in Evermore	40	4
+7528	A Nightmare in Evermore	40	4
+7529	A Nightmare in Evermore	40	4
+7530	A Nightmare in Evermore	40	4
+7531	A Nightmare in Evermore	40	4
+7532	A Nightmare in Evermore	40	4
+7533	A Nightmare in Evermore	40	4
+7534	A Nightmare in Evermore	40	4
+7535	A Nightmare in Evermore	40	4
+7536	A Nightmare in Evermore	40	4
+7600	EP04 Reputation Quest: Cockatrako's Secret Hot Spring	5	4
+7601	Merfolk's Island	5	4
+7602	Merfolk's Island	5	4
+7603	Vermuda Archipelago	5	4
+7604	Merfolk's Island	5	4
+7605	Secret Hot Spring	5	4
+7606	Witch's Kitchen	5	4
+7801	Vermuda Archipelago	35	4
+7802	Vermuda Archipelago	35	4
+7803	Vermuda Archipelago	35	4
+7804	Vermuda Archipelago	35	4
+7805	Vermuda Archipelago	35	4
+7806	Vermuda Archipelago	35	4
+7807	Vermuda Archipelago	35	4
+7811	Vermuda Archipelago	35	4
+7812	Vermuda Archipelago	35	4
+7813	Vermuda Archipelago	35	4
+7814	Vermuda Archipelago	35	4
+7815	Vermuda Archipelago	35	4
+7816	Vermuda Archipelago	35	4
+7817	Vermuda Archipelago	35	4
+7821	Vermuda Archipelago	35	4
+7822	Vermuda Archipelago	35	4
+7823	Vermuda Archipelago	35	4
+7824	Vermuda Archipelago	35	4
+7825	Vermuda Archipelago	35	4
+7826	Vermuda Archipelago	35	4
+7827	Vermuda Archipelago	35	4
+7831	Vermuda Archipelago	35	4
+7832	Vermuda Archipelago	35	4
+7833	Vermuda Archipelago	35	4
+7834	Vermuda Archipelago	35	4
+7835	Vermuda Archipelago	35	4
+7836	Vermuda Archipelago	35	4
+7837	Vermuda Archipelago	35	4
+7841	Vermuda Archipelago	35	4
+7842	Vermuda Archipelago	35	4
+7843	Vermuda Archipelago	35	4
+7844	Vermuda Archipelago	35	4
+7845	Vermuda Archipelago	35	4
+7846	Vermuda Archipelago	35	4
+7847	Vermuda Archipelago	35	4
+7999	Vermuda Archipelago	5	4
+8000	Southern Heartland Well	0	4
+8001	Natrum's Nest	5	4
+8003	Fire Temple	5	4
+8004	The In-Between	0	4
+8005	Nameless Kingdom	5	4
+8006	Citadel Interior	0	4
+8007	The In-Between	5	4
+8008	Nameless Kingdom	5	4
+8009	Kingdom	5	4
+8010	Rainbow Valley	5	4
+8011	The In-Between	5	4
+8012	Nameless Kingdom	5	4
+8014	Guardian's Ruins	0	4
+8015	Queen's Chambers	5	4
+8016	Evermore Castle	5	4
+8017	Evermore	5	4
+8018	Burster Factory	5	4
+8019	Ancient Relic Archive Sub-basement	5	4
+8020	For Recording the Lost Kingdom Video	5	4
+8030	For Recording the Lost Kingdom Video	5	4
+8031	Forest	5	4
+8032	Alvis's Office	5	4
+8033	Mirae Corporation Lab	5	4
+8034	Star Altar: Past	5	4
+8035	Ruins of Atrasia	5	4
+8036	Familiars Castle Interior	5	4
+8037	Secret Southern Heartland Well	5	4
+8038	Kingdom of Familiars	5	4
+8039	Winter Wonderland	5	4
+8040	Witch's Castle Entrance	5	4
+8041	The In-Between	5	4
+8042	Cradle of Light	5	4
+8043	Nameless Kingdom	5	4
+8044	Sky Island	5	4
+9000	Southern Heartlands	22	1
+9001	Eastern Heartlands	22	1
+9002	Golden Grove	22	1
+9003	Serene Forest	22	1
+9004	Allegra Plateau	22	1
+9005	Cloudcoil Canyon	22	1
+9101	Coastal Plaza Fl. 1	28	4
+9102	Collapsed Wreckage Fl. 2	28	1
+9103	Corridor of Honor Fl. 3	28	1
+9104	Hall of Worship Fl. 4	28	1
+9109	Coastal Plaza Fl. 1	5	4
+9111	Maintenance Bay Fl. 1	28	1
+9112	Lower Hangar Fl. 2	28	1
+9113	Upper Hangar Fl. 3	28	1
+9114	Airship Interior Fl. 4	28	1
+9131	Fl. 1 Winter Wind's Forgotten Garden	28	1
+9132	Fl. 2 Ancient Frozen Corridor	28	1
+9141	Tainted Underground City Fl. 1	28	1
+9142	Road of the Forsaken Fl. 2	28	1
+9143	Castle of Seized Memory Fl. 3	28	1
+9144	Sealed Crypt of the Kings Fl. 4	28	1
+9151	Fl. 1 Lower Treynia Volcano	28	1
+9152	Fl. 2 Middle Treynia Volcano	28	1
+9153	Fl. 3 Upper Treynia Volcano	28	1
+9154	Fl. 4 Treynia Volcano Depths	28	1
+9161	Fl. 1 Sagartha Outskirts Primis	28	1
+9162	Fl. 2 Sagartha Outskirts Secundus	28	1
+9163	Fl. 3 Sagartha Outskirts Tertium	28	1
+9164	Fl. 4 Sagartha Outskirts Quartus	28	1
+9171	Fl. 1 Cradle of Fire Lowlands	28	1
+9172	Fl. 2 Cradle of Light Lower Floor	28	1
+9173	Fl. 3 Cradle of Fire Highlands	28	1
+9174	Fl. 4 Cradle of Light Upper Floor	28	1
+9181	Nightmare Coastal Plaza Fl. 1	28	1
+9182	Fl. 2 Nightmare Collapsed Wreckage	28	1
+9121	Fl. 1 Winter Wind's Garden	38	2
+9122	Fl. 2 Frozen Corridor	38	2
+9123	Fl. 3 Hall of Frozen Dew	38	2
+9124	Sanctum of Eternal Ice Fl. 4	38	2
+9517	Sagartha	60	4
+11001	Scattered Spacetime Garden Fl. 1	38	2
+11002	Hall of Forgotten Guardians Fl. 2	38	2
+11003	Ruins of Faded Memory Fl. 3	38	2
+11004	Ruins of Halted Time Fl. 4	38	2
+11005	5th Floor Land of Revived Bonds	38	2
+11101	1st Floor Deep Blue Coral Great Blood	38	2
+11102	2nd Floor Shining Angler Great Blood	38	2
+11103	3rd Floor Dark Reef Great Blood	38	2
+11104	Fl. 4 Abandoned Whelk Cavern	38	2
+9900	Interstellar Space	49	4
+9901	Interstellar Space	50	4
+9902	Interstellar Space	0	4
+10001	Dusk Genie (Novice)	31	4
+10002	Dusk Genie (Normal)	33	4
+10003	Dusk Genie (Hard)	33	4
+10004	Dusk Genie of the In-Between	56	4
+10005	Sealed Ancient Genie's Island	33	4
+10101	Kraken's Island (Novice)	31	4
+10102	Kraken's Island (Normal)	33	4
+10103	Kraken's Island (Hard)	33	4
+10104	Goldbeard of the In-Between	56	4
+10105	Kraken's Island	33	4
+10202	Dream Witch (Normal)	33	4
+10203	Dream Witch (Hard)	33	4
+10204	Dream Witch of the In-Between	56	4
+10302	Cockatrako's Secret Hot Spring (Normal)	33	4
+10303	Cockatrako's Secret Hot Spring (Hard)	33	4
+10304	Cockatrako of the In-Between	56	4
+10401	Sirius (Solo Dungeon)	46	4
+10402	Sirius (Normal)	33	4
+10403	Sirius (Hard)	33	4
+10404	Void Beasts from the In-Between	56	4
+10405	Sirius (Chance Dungeon)	33	4
+10406	Void Beast Summon	5	4
+10501	Witch's Kitchen (Normal)	33	4
+10502	Witch's Kitchen (Hard)	33	4
+10503	Cooking Witch of the In-Between	56	4
+10901	DJ Kuromi's Party House (Normal)	33	4
+10902	DJ Kuromi's Party House (Hard)	33	4
+10903	DJ Kuromi's Party House (Challenge)	32	4
+10909	DJ Kuromi's Party House	5	4
+12001	Burster Factory	58	4
+12011	Chaos Forge	58	4
+12021	Forward Base Depths	58	4
+12031	Mega Burster Crane	58	4
+12002	Burster Factory (Heroic)	58	4
+12012	Chaos Forge (Heroic)	58	4
+12022	Forward Base Depths (Heroic)	58	4
+12032	Mega Burster Crane (Heroic)	58	4
+12003	Burster Factory (Legendary)	58	4
+12101	Ancient Relic Archive Sub-basement	58	4
+12111	Shrine of the Thunder Lord	58	4
+12102	Ancient Relic Archive Sub-basement (Heroic)	58	4
+12112	Shrine of the Thunder Lord (Heroic)	58	4
+12201	Witch's Castle Entrance	58	4
+12211	Witch's Castle Underground	58	4
+12202	Witch's Castle Entrance (Heroic)	58	4
+12212	Witch's Castle Underground (Heroic)	58	4
+20000	Chaos Rift	52	4
+20001	Party Chaos Rift	52	4
+20002	Evermore at Night	5	4
+30000	Battle Balance (Range)	0	4
+30001	Battle Balance (Fire)	0	0
+30002	Battle Balance (Water)	0	1
+30003	Battle Balance (Earth)	0	2
+30004	Battle Balance (Light)	0	3
+30005	Battle Balance (Darkness)	0	1
+3010999	Goldbeard's Pirate Ship	0	4
+3011998	Familiars' Cradle	5	4
+3011999	Familiars' Cradle	0	4
+7001001	Snowball Fight Wonderland	42	3
+9999970	Familiar Ultimate Evolution Exclusive Level	5	4
+300301	Leader Battle Melee	72	3
+300601	Temple Team Arena	55	3
+300602	Temple Team Arena	55	3
+300603	Temple Team Arena	55	3
+300604	Temple Team Arena	55	3
+300605	Temple Team Arena	55	3
+91511	Fl. 1 Lower Treynia Volcano	5	4
